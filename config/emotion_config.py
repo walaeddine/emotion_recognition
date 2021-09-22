@@ -20,11 +20,11 @@ IMG_WIDTH = 48
 NUM_CLASSES = 7
 
 # define input image spatial dimensions
-IMAGE_SIZE = (48, 48)
+IMAGE_SIZE = (IMG_HEIGHT, IMG_WIDTH)
 
 # initialize our number of epochs, early stopping patience, initial
 # learning rate, and batch size
-NUM_EPOCHS = 60
+NUM_EPOCHS = 80
 EARLY_STOPPING_PATIENCE = 5
 INIT_LR = 1e-3
 BS = 64
