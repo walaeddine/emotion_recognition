@@ -4,6 +4,7 @@ __pycache__/
 *$py.class
 dataset/
 *.csv
+*.hdf5
 # C extensions
 *.so
 
